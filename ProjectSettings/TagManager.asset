@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ai
   - enemy
+  - Obstacle
   layers:
   - Default
   - TransparentFX
