@@ -13,7 +13,7 @@ public class BlueAgentFSM : MonoBehaviour {
 
         // Grab everything with the 'ai' tag
         Blueagent=this.GetComponent<NavMeshAgent>();
-        currentState = new Patrol(this.gameObject, Blueagent, Redagent.transform); // Create our first state.
+        currentState = new State.Patrol(this.gameObject, Blueagent, Redagent.transform); // Create our first state.
     }
 
     // Update is called once per frame
